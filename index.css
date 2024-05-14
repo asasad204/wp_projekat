@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Helvetica;
+}
+body {
+  background-image: url('./slike/pozadina.jpg');
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.header_ikona {
+  margin: 10px;
+}
+.sign {
+  margin: 7px;
+}
+.search-polje {
+    border-radius: 100px;
+    border: 3px solid #A2678A; 
+}
+.lista-header {
+    margin-top: 50px;
+    font-weight: bold;
+}
+.lista-header a {
+    color: #A2678A ; 
+    text-align: right;
+}
+.gly {
+    margin-left: 10px;
+    color: #A2678A;
+}
+
+.link-header:link {
+    text-decoration: none;
+    color: #A2678A;
+}
+
+.link-header:hover {
+    color: #3F1D38;
+}
+.bg-boja-sve {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.side-lista {
+    list-style-type: none;
+    position: fixed;
+    top: 10;
+}
+.side-lista-items {
+    font-weight: bold;
+    background-color: #A2678A;
+    border-radius: 10px;
+}
+.side-lista .side-lista-items .link-side:hover {
+    background-color: #3F1D38 !important;  
+}
+.side-lista .side-lista-items .link-side { 
+    color: white !important;
+}
+.manji-text {
+    font-size: 15px;
+}
+
+.naslov {
+    font-weight: bold;
+    padding: 15px;
+}
+.vjestine {
+    padding: 15px;
+    font-size: 15px;
+}
+.bio{
+  font-size: 18px;
+}
+.maturski-info {
+    font-size: 15px;  
+}
+.maturski{
+  font-size: 15px; 
+}
+
+.maturski-slika {
+  margin-top: 45px;
+}
+
+
+#maturski-info-bg{
+    background-color: rgb(162, 103, 138, 0.5);
+    width: 60%;
+    padding: 5px;
+ 
+    border-radius: 10px;  
+}
+
+
+hr {
+    height: 3px;
+    max-width: 100%;
+    background-color: rgb(59, 57, 57);
+}
+
+
+.link-skola {
+    word-wrap: break-word;
+}
+
+.link-skola:link {
+    text-decoration: none;
+    color:rgb(53, 50, 50);
+}
+
+.link-skola:hover {
+    color: black;
+}
+
+.naslov-centriran {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+fieldset {
+   border: 2px solid rgb(61, 59, 59);
+}
+
+label, input {
+    border-radius: 10px;
+}
+
+.forma-input {
+    border: 1px solid grey
+
+}
+
+#forma {
+    width: 80%;
+}
+
+.btn {
+    margin: 5px;
+    
+}
+textarea {
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: #A2678A;
+    color: white;
+    padding: 10px;
+    
+
+}
+
+.glyphicon-circle-arrow-up {
+  font-size: xx-large;
+    color: white;
+    padding: 5px;
+
+}
+
+.sredina-footer {
+    padding: 10px;
+    color: white;
+}
+
+@media screen and (max-width: 1450px) {
+    .side-lista {
+        width: 100%;
+        position: relative;
+    }
+    .ikona-red {
+        flex-direction: row;
+    }
+    .lista {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .fieldset, .forma-input, .tekst {
+        width: 100%;
+    }
+}

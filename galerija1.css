@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Helvetica;
+
+}
+body {
+  background-image: url('./slike/pozadina.jpg');
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.header_ikona {
+  margin: 10px;
+}
+.sign {
+  margin: 7px;
+}
+.search-polje {
+    border-radius: 100px;
+    border: 3px solid #A2678A; 
+}
+.lista-header {
+    margin-top: 50px;
+    font-weight: bold;
+}
+.lista-header a {
+    color: #A2678A ; 
+    text-align: right;
+}
+.gly {
+    margin-left: 10px;
+    color: #A2678A;
+}
+
+.link-header:link {
+    text-decoration: none;
+    color: #A2678A;
+}
+
+.link-header:hover {
+    color: #3F1D38;
+}
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #A2678A !important;
+    color: white !important;
+
+}
+  
+
+.panel-custom {
+    background-color: aqua;
+}
+hr {
+    height: 3px;
+    background-color: rgb(59, 57, 57);
+}
+
+footer {
+    background-color: #90a0ad;
+    padding: 20px;
+    
+
+}
+footer {
+    background-color: #A2678A;
+    color: white;
+    padding: 10px;
+    
+
+}
+
+.glyphicon-circle-arrow-up {
+  font-size: xx-large;
+    color: white;
+    padding: 5px;
+
+}
+
+.sredina-footer {
+  padding: 10px;
+    color: white;
+
+}
+
+.pocetna-text {
+    margin-left: 50px;
+}
+
+.manji-text {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1450px) {
+    .ikona-red {
+        flex-direction: row;
+    }
+    .lista {
+        flex-direction: row;
+    }
+}
